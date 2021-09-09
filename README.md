@@ -1,7 +1,7 @@
 # Fundamentals_R_Programming
 An overview of the R Program.
 
-## Overview
+## Repository Overview
 The following is an introduction to R and R Studio.
 
 ## R Program Setup
