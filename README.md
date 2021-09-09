@@ -21,7 +21,7 @@ An overview of the R Program.
 - For Windows, run it through the installer as you would with any other Windows program
 
 ### R Studio Configuration
-- Four panes within the application window
+- R Studio has four panes within the application window
 - Top-left pane contains your source, or any RScripts, tables, and files you open within RStudio
 - Bottom-left pane contains the R console
   - Can interact with the environment in real time and test parts of our code before we write them in our scripts)
@@ -42,4 +42,6 @@ An overview of the R Program.
   - Run the following in the R Studio console: > install.packages("tidyverse")
 - Install the **jsonlite** library
   - Run the following in the R Studio console: > install.packages("jsonlite")
-- 
+
+### Create a Working Directory Folder
+
