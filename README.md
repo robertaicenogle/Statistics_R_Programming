@@ -50,4 +50,16 @@ The following is an introduction to R and R Studio.
 - Simplifies the process of reading in any external files into our R environment
 
 **1.** Make a folder on your computer called "R_Analysis," or whatever would help identify your R analysis and scripts folder
+
 **2.** In the R menu screen, go to Session, click Set Working Directory, then select Choose Directory
+
+**3.** Navigate to the folder on your computer and select Open. If you click on the Files tab in your bottom-right multi-tool pane, notice that the folder now represents your active working directory.
+
+**4.** Now create a new folder in your active directory using the "New Folder" button. Once you have created the folder, press the refresh ( ) button to refresh the directory to see your new folder.
+
+**5.** Once you have created your new folder, use the file pane and click on the folder to navigate within it. Within the file pane, click on More and select the Set As Working Directory option to make the folder your new working directory.
+
+*To set a folder as your default working directory, go to Tools, Global Options, General, and specify the location of the folder.
+
+## Fundamentals of R Programming
+The two fundamental components to programming in R are creating data structures and using functions.
