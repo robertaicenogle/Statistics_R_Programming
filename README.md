@@ -46,4 +46,7 @@ The following is an introduction to R and R Studio.
   - Run the following in the R Studio console: > install.packages("jsonlite")
 
 ### Create a Working Directory Folder
-
+- This will allow us to keep all of our RScripts and analysis results in a neat, organized structure
+- Simplifies the process of reading in any external files into our R environment
+**1.** Make a folder on your computer called "R_Analysis," or whatever would help identify your R analysis and scripts folder
+**2.** In the R menu screen, go to Session, click Set Working Directory, then select Choose Directory
