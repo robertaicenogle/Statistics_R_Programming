@@ -23,6 +23,7 @@ An overview of the R Program.
 ### R Studio Configuration
 - Four panes within the application window
 - Top-left pane contains your source, or any RScripts, tables, and files you open within RStudio
-- Bottom-left pane contains the R console (to interact with the environment in real time and test parts of our code before we write them in our scripts)
+- Bottom-left pane contains the R console
+  - Can interact with the environment in real time and test parts of our code before we write them in our scripts)
 - Top-right pane contains our environment objects, such as variables, functions, and data frames
   - Helps us keep track of the shape, data type, and contents of each variable without having to print out our variables in the console
