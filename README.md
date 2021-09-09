@@ -4,7 +4,7 @@ An overview of the R Program.
 ## Overview
 The following is an introduction to R and R Studio.
 
-## R Setup
+## R Program Setup
 
 ### Install R
 -  **Install R** before installing RStudio
