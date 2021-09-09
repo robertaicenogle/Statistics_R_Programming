@@ -34,3 +34,12 @@ An overview of the R Program.
     - Use the Files tab to open RScripts from your computer or to copy file paths to include within your RScripts
     - Finally, to learn more about a function or object from a library in R, simply type ?(<)name of function or object(>)
 
+### Install Libraries/Packages
+- Install required libraries to use them in our RScripts
+  - Be sure to wrap the package name in quotation marks, otherwise R will throw an error
+- To install packages in our R environment, use the install.packages() function
+- Install **tidyverse** (https://www.tidyverse.org/), a robust library collection
+  - Run the following in the R Studio console: > install.packages("tidyverse")
+- Install the **jsonlite** library
+  - Run the following in the R Studio console: > install.packages("jsonlite")
+- 
