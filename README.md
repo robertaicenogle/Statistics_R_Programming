@@ -1,4 +1,4 @@
-# Statistics_R_Programming
+# Fundamentals_R_Programming
 An overview of the R Program.
 
 ## Overview
