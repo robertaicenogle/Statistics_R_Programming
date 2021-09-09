@@ -25,5 +25,9 @@ An overview of the R Program.
 - Top-left pane contains your source, or any RScripts, tables, and files you open within RStudio
 - Bottom-left pane contains the R console
   - Can interact with the environment in real time and test parts of our code before we write them in our scripts)
-- Top-right pane contains our environment objects, such as variables, functions, and data frames
+- Top-right pane contains our environment objects (such as variables, functions, and data frames)
   - Helps us keep track of the shape, data type, and contents of each variable without having to print out our variables in the console
+  - Useful for tracking what each line of code does to our data
+- Bottom right is the multi-tool pane
+  - Contains tabs for a file explorer, R documentation help, installed package list, and a plot viewing tool
+    - Plots tab for exploring our generated plots
