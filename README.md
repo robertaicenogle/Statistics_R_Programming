@@ -32,4 +32,4 @@ An overview of the R Program.
   - Contains tabs for a file explorer, R documentation help, installed package list, and a plot viewing tool
     - Plots tab for exploring our generated plots
     - Use the Files tab to open RScripts from your computer or to copy file paths to include within your RScripts
-    - Finally, to learn more about a function or object from a library in R, simply type ?<name of function or object> in the R console to open the documentation
+    - Finally, to learn more about a function or object from a library in R, simply type '?<name of function or object>' in the R console to open the documentation
