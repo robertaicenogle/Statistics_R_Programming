@@ -63,9 +63,16 @@ The two fundamental components to programming in R are creating **data structure
 
 **Named values** are exactly what they sound like—they are a value that has been given a name. We can think of named values as a variable that has been given a single value. **Vectors** are R's version of arrays, where a list of numbers are assigned a location and stored as a single data structure.
 
+### Using Assignment Statements to create Named Values and Vectors
 To create our first **data structure** in R, we use an assignment statement. An **assignment statement** in R simply tells R the name of the object and assigns a value or data structure to that name.
 
 For example, say we want to create a named value x and assign it a value of 3, we would use this R command: > x <- 3
 
 The assignment operator (<-) tells R to assign whatever is right of the arrow to the name that is left of the arrow. In this case, we have given 3 the name of "x."
 In R, all environment objects are mutable, which means they can be assigned and reassigned multiple times. If we want to assign a new value to x, we can do so using an assignment operator to assign a new value.
+
+The other simple data structure in R is the numeric vector. A **numeric vector** is an ordered list of numbers, very similar to a numeric list in Python. To create a numeric vector, we use the c()function. The **c() function** is short for concatenate, which means to link together. In R, we link together a comma-separated list of values into a single numerical vector. For instance, if we want to make a list of numbers from 0 to 9, we can pass the following command into the R console:
+
+> numlist <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+The result of this command would assign the vector numlist into the environment.
