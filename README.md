@@ -107,4 +107,4 @@ There are four components of an R function:
 - The function body includes data structures, if-statements, and other logical statements that define what the function does.
 - The return statement is the last evaluated statement before returning the resulting value out of the function.
 
-
+If at any point you are unsure what an R function does or what it needs to execute, you can always type ?<name of function> in the R console and it'll open the documentation in the Help pane.
