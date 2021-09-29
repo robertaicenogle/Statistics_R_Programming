@@ -62,3 +62,8 @@ An overview of the R Program.
 The two fundamental components to programming in R are creating **data structures** and using **functions**. R uses named data structures to store values and properties, and uses functions to perform operations. The most straightforward R data structures are named **values** and **vectors**.
 
 **Named values** are exactly what they sound like—they are a value that has been given a name. We can think of named values as a variable that has been given a single value. **Vectors** are R's version of arrays, where a list of numbers are assigned a location and stored as a single data structure.
+
+To create our first **data structure** in R, we use an assignment statement. An **assignment statement** in R simply tells R the name of the object and assigns a value or data structure to that name.
+
+For example, say we want to create a named value x and assign it a value of 3, we would use this R command: > x <- 3
+
