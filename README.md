@@ -94,4 +94,13 @@ In R, a function is used to perform a specific task and is denoted by parenthese
 
 We have already used two built-in functions—the install.packages() function and the c() function. One required the name of the package to install and returned no value. The other could contain an unlimited number of arguments and would return a vector containing a list of equal size and order.
 
+Regardless of where a function comes from, all R functions use the same basic syntax:
+
+function_name <- function(arg1, arg2=T, …){
+
+<BODY OF FUNCTION>
+
+return <RETURN VALUE>
+}
+
 ###
