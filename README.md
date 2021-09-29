@@ -114,5 +114,5 @@ There are built-in R functions to import the most common data formats, such as c
 
 To read in a CSV file, we use R's **read.csv()** function. read.csv() has a few required arguments to work properly. To identify the required arguments, type the following code into the R console to look at the read.csv() documentation in the Help pane:
 
-![](function_syntax.PNG)
+![](import_data.PNG)
 
