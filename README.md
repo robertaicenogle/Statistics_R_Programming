@@ -61,12 +61,12 @@ Introduction to R:  https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf
 
 *To set a folder as your default working directory, go to Tools, Global Options, General, and specify the location of the folder.
 
-## Fundamentals of R Programming
+# Fundamentals of R Programming
 The two fundamental components to programming in R are creating **data structures** and using **functions**. R uses named data structures to store values and properties, and uses functions to perform operations. The most straightforward R data structures are named **values** and **vectors**.
 
 **Named values** are exactly what they sound like—they are a value that has been given a name. We can think of named values as a variable that has been given a single value. **Vectors** are R's version of arrays, where a list of numbers are assigned a location and stored as a single data structure.
 
-### Data Structures
+## Data Structures
 To create our first **data structure** in R, we use an assignment statement. An **assignment statement** in R simply tells R the name of the object and assigns a value or data structure to that name.
 
 ### Named Value
@@ -88,3 +88,5 @@ R also supports a number of more **advanced data structures** such as matrices, 
 - A **matrix** can be thought of as a vector of vectors, where each value in the matrix is the same data type.
 - A **data frame** is very similar to a Pandas DataFrame where each column can be a different data type.
 - A **tibble** is a recent data object introduced by the tidyverse package in R and is an optimized data frame with extra metadata and features. The most current libraries and packages in R use data frames or tibbles; however, older R packages and analysis scripts will still use matrix objects to perform specific functions or analyses.
+
+## Functions in R
