@@ -112,7 +112,12 @@ Data analysis and visualization typically begin with reading in an external data
 
 There are built-in R functions to import the most common data formats, such as comma-separated values (CSV) and JavaScript Object Notation (JSON), as well as plenty of documentation and support online to import more advanced data structures.
 
+### Read Function (CSV File)
 To read in a CSV file, we use R's **read.csv()** function. read.csv() has a few required arguments to work properly. To identify the required arguments, type the following code into the R console to look at the read.csv() documentation in the Help pane:
 
 ![](import_data.PNG)
+
+As we can see from the documentation, read.csv() is one of many read functions that all serve the same purpose: to read in tabular, character-delimited files and create a data frame object within our R environment.
+
+Depending on what **delimiter** (or value-separating character) is used, we can use **read.csv()** for comma-delimited files, **read.delim()** for tab-delimited files, or **read.table()** if we need to manually tell the function what delimiter is used.
 
