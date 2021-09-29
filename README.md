@@ -134,3 +134,10 @@ Use read.csv() in our source RScript pane to read in the demo file into our R en
 ![](read_csv.PNG)
 
 Note: It isn't necessary to put a source file into our active working directory. If we ever want to read in a file from elsewhere on our computer, we would provide the full file path to our file argument.
+
+There are two ways to send RScript lines to our R console. We can either use the "Run" button in the top-right source pane or use the following shortcut:
+
+- Command + Enter (Mac)
+- CTRL + Enter (Windows)
+
+If we send our read.csv() function to the R console, we should see our demo_table created in our R environment.
