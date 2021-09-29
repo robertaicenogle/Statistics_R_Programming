@@ -79,6 +79,6 @@ The result of this command would assign the vector numlist into the environment.
 
 R also supports a number of more **advanced data structures** such as matrices, data frames, and tibbles—all of which are variations of the same data frame concept:
 
-A **matrix** can be thought of as a vector of vectors, where each value in the matrix is the same data type.
-A **data frame** is very similar to a Pandas DataFrame where each column can be a different data type.
-A **tibble** is a recent data object introduced by the tidyverse package in R and is an optimized data frame with extra metadata and features. The most current libraries and packages in R use data frames or tibbles; however, older R packages and analysis scripts will still use matrix objects to perform specific functions or analyses.
+- A **matrix** can be thought of as a vector of vectors, where each value in the matrix is the same data type.
+- A **data frame** is very similar to a Pandas DataFrame where each column can be a different data type.
+- A **tibble** is a recent data object introduced by the tidyverse package in R and is an optimized data frame with extra metadata and features. The most current libraries and packages in R use data frames or tibbles; however, older R packages and analysis scripts will still use matrix objects to perform specific functions or analyses.
