@@ -94,8 +94,17 @@ In R, a function is used to perform a specific task and is denoted by parenthese
 
 We have already used two built-in functions—the install.packages() function and the c() function. One required the name of the package to install and returned no value. The other could contain an unlimited number of arguments and would return a vector containing a list of equal size and order.
 
+### Function syntax
 Regardless of where a function comes from, all R functions use the same basic syntax:
 
 ![](function_syntax.PNG)
 
-###
+### Components of a Function
+There are four components of an R function:
+
+- The function name is the name of the function, which can be used in the R console to call the function itself.
+- Just like Python methods, R functions can have any number of required or optional arguments, depending on the design of the function.
+- The function body includes data structures, if-statements, and other logical statements that define what the function does.
+- The return statement is the last evaluated statement before returning the resulting value out of the function.
+
+
