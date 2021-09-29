@@ -67,3 +67,4 @@ To create our first **data structure** in R, we use an assignment statement. An 
 
 For example, say we want to create a named value x and assign it a value of 3, we would use this R command: > x <- 3
 
+The assignment operator (<-) tells R to assign whatever is right of the arrow to the name that is left of the arrow. In this case, we have given 3 the name of "x."
