@@ -140,4 +140,4 @@ There are two ways to send RScript lines to our R console. We can either use the
 - Command + Enter (Mac)
 - CTRL + Enter (Windows)
 
-If we send our read.csv() function to the R console, we should see our demo_table created in our R environment.
+If we send our read.csv() function to the R console, we should see our demo_table created in our R environment. Additionally, if we click on the demo_table in our environment pane, it will show us our data frame in a view-only tab in the source pane.
