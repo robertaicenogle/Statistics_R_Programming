@@ -63,7 +63,7 @@ The two fundamental components to programming in R are creating **data structure
 
 **Named values** are exactly what they sound like—they are a value that has been given a name. We can think of named values as a variable that has been given a single value. **Vectors** are R's version of arrays, where a list of numbers are assigned a location and stored as a single data structure.
 
-### Using Assignment Statements to create Named Values and Vectors
+### Using Assignment Statements to create Data Structures - Named Values and Vectors
 To create our first **data structure** in R, we use an assignment statement. An **assignment statement** in R simply tells R the name of the object and assigns a value or data structure to that name.
 
 For example, say we want to create a named value x and assign it a value of 3, we would use this R command: > x <- 3
@@ -75,4 +75,10 @@ The other simple data structure in R is the numeric vector. A **numeric vector**
 
 > numlist <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
-The result of this command would assign the vector numlist into the environment.
+The result of this command would assign the vector numlist into the environment. If the object is not a named value, it will provide the data type and dimension.
+
+R also supports a number of more **advanced data structures** such as matrices, data frames, and tibbles—all of which are variations of the same data frame concept:
+
+A **matrix** can be thought of as a vector of vectors, where each value in the matrix is the same data type.
+A **data frame** is very similar to a Pandas DataFrame where each column can be a different data type.
+A **tibble** is a recent data object introduced by the tidyverse package in R and is an optimized data frame with extra metadata and features. The most current libraries and packages in R use data frames or tibbles; however, older R packages and analysis scripts will still use matrix objects to perform specific functions or analyses.
