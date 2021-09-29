@@ -96,6 +96,6 @@ We have already used two built-in functions—the install.packages() function an
 
 Regardless of where a function comes from, all R functions use the same basic syntax:
 
-
+![](function_syntax.PNG)
 
 ###
