@@ -1,6 +1,9 @@
 # Fundamentals_R_Programming
 An overview of the R Program.
 
+## Resources
+Introduction to R https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf
+
 ## R Program Setup and Installation
 
 ### Install R
