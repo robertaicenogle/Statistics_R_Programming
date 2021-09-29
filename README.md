@@ -141,3 +141,11 @@ There are two ways to send RScript lines to our R console. We can either use the
 - CTRL + Enter (Windows)
 
 If we send our read.csv() function to the R console, we should see our demo_table created in our R environment. Additionally, if we click on the demo_table in our environment pane, it will show us our data frame in a view-only tab in the source pane.
+
+### Import a JSON File
+What if we want to bring in a dataset from an application programming interface (API) query? The JSON format is one of the most common data formats returned from a URL request. To accommodate this need, R developers created the jsonlite library to read in JSON data structures and convert them to an R data frame. Because the jsonlite library was not built into R, we must import it into our R environment.
+
+To import a library into R, we'll use the library(package)function.
+
+Let's try loading in our installed jsonlite package using the library(jsonlite) function. Be sure to write the statement in your RScript and then send the statement to your R console (Command + Enter for Mac or CTRL + Enter for Windows).
+
