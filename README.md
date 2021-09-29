@@ -167,3 +167,9 @@ Once again, if we click the demo_table2 in our environment pane, it will show us
 
 ## Select Data in R
 There are many ways to select and subset data in R, depending on what data structure is being used. When it comes to vectors, the easiest way to select data is using the bracket ("[ ]") notation.
+
+For example, if we have a numeric vector x with 10 values and want to select the third value, we would use the following statements:
+
+![](use_brackets.PNG)
+
+You can also use bracket notation to select data from two-dimensional data structures, such as matrices, data frames, and tibbles.
