@@ -90,3 +90,8 @@ R also supports a number of more **advanced data structures** such as matrices, 
 - A **tibble** is a recent data object introduced by the tidyverse package in R and is an optimized data frame with extra metadata and features. The most current libraries and packages in R use data frames or tibbles; however, older R packages and analysis scripts will still use matrix objects to perform specific functions or analyses.
 
 ## Functions in R
+In R, a function is used to perform a specific task and is denoted by parentheses. Functions can either be built-in, come from imported libraries, or be defined by the user.
+
+We have already used two built-in functions—the install.packages() function and the c() function. One required the name of the package to install and returned no value. The other could contain an unlimited number of arguments and would return a vector containing a list of equal size and order.
+
+###
