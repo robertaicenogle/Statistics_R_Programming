@@ -173,3 +173,13 @@ For example, if we have a numeric vector x with 10 values and want to select the
 ![](use_brackets.PNG)
 
 You can also use bracket notation to select data from two-dimensional data structures, such as matrices, data frames, and tibbles.
+
+If we want to select the third row of the Year column using bracket notation, our statement would appear as follows:
+
+![](select_data.PNG)
+
+Because R keeps track of both the row indices as well as the column indices as integers under the hood, we can also select the same data using just number indices:
+
+![](select_data2.PNG)
+
+
