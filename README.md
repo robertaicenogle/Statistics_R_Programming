@@ -62,4 +62,6 @@ The following is an introduction to R and R Studio.
 *To set a folder as your default working directory, go to Tools, Global Options, General, and specify the location of the folder.
 
 ## Fundamentals of R Programming
-The two fundamental components to programming in R are creating data structures and using functions.
+The two fundamental components to programming in R are creating **data structures** and using **functions**. R uses named data structures to store values and properties, and uses functions to perform operations. The most straightforward R data structures are named **values** and **vectors**.
+
+**Named values** are exactly what they sound like—they are a value that has been given a name. We can think of named values as a variable that has been given a single value. **Vectors** are R's version of arrays, where a list of numbers are assigned a location and stored as a single data structure.
