@@ -149,3 +149,21 @@ To import a library into R, we'll use the library(package)function.
 
 Let's try loading in our installed jsonlite package using the library(jsonlite) function. Be sure to write the statement in your RScript and then send the statement to your R console (Command + Enter for Mac or CTRL + Enter for Windows).
 
+If at any time your R console throws errors when trying to import a library, you can always try to reinstall the package using the install.packages() function.
+
+Now that we have successfully imported our jsonlite package, we can use the fromJSON() function to read in a JSON file into R.
+
+First, type the following code into the R console to look at the fromJSON() documentation in the Help pane:
+
+![](json_help.PNG)
+
+As we can see, we only need to provide the txt argument to properly read in a JSON file into R because the other parameters have default values indicated with equations (e.g. simplifyVector=True). txt is the file path of the JSON file on our machine. Alternatively, we can provide the fromJSON() function a JSON URL directly. Now let's practice reading in our first JSON file.
+
+Place the downloaded data file in your active working directory. Next, use fromJSON() in our source RScript pane to read in the used car data into our R environment, as follows:
+
+![](from_json.PNG)
+
+Once again, if we click the demo_table2 in our environment pane, it will show us our data frame in a view-only tab in the source pane.
+
+## Select Data in R
+There are many ways to select and subset data in R, depending on what data structure is being used. When it comes to vectors, the easiest way to select data is using the bracket ("[ ]") notation.
