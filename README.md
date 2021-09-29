@@ -1,5 +1,5 @@
 # Fundamentals_R_Programming
-An overview of the R Program.
+An overview of the R Program. Instructions for R installation, data import, data visualization, statistical tests, hypothesis testing, analysis of means, crrelation and regression
 
 ## Resources
 Introduction to R:  https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf
