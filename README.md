@@ -106,3 +106,13 @@ There are four components of an R function:
 - Just like Python methods, R functions can have any number of required or optional arguments, depending on the design of the function.
 - The function body includes data structures, if-statements, and other logical statements that define what the function does.
 - The return statement is the last evaluated statement before returning the resulting value out of the function.
+
+## Import Data
+Data analysis and visualization typically begin with reading in an external data source into our programming environment.
+
+There are built-in R functions to import the most common data formats, such as comma-separated values (CSV) and JavaScript Object Notation (JSON), as well as plenty of documentation and support online to import more advanced data structures.
+
+To read in a CSV file, we use R's **read.csv()** function. read.csv() has a few required arguments to work properly. To identify the required arguments, type the following code into the R console to look at the read.csv() documentation in the Help pane:
+
+![](function_syntax.PNG)
+
