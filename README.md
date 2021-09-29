@@ -121,3 +121,8 @@ As we can see from the documentation, read.csv() is one of many read functions t
 
 Depending on what **delimiter** (or value-separating character) is used, we can use **read.csv()** for comma-delimited files, **read.delim()** for tab-delimited files, or **read.table()** if we need to manually tell the function what delimiter is used.
 
+Use read.csv() in our source RScript pane to read in the demo file into our R environment. Type the following code:
+
+![](read_csv.PNG)
+
+Note: It isn't necessary to put a source file into our active working directory. If we ever want to read in a file from elsewhere on our computer, we would provide the full file path to our file argument.
