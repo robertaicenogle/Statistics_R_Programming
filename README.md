@@ -236,3 +236,36 @@ Using filtering and subsetting methods may be appropriate for certain cases (suc
 Type the following code into the R console to look at the sample() documentation in the Help pane:
 
 ![](snippets/sample_data.PNG)
+
+The sample() function uses a few arguments to create a sampled vector from a larger vector:
+
+- x
+- size
+- replace
+
+If we want to sample a large vector and create a smaller vector, we can set the vector to "x":
+
+![](snippets/sample_data2.PNG)
+
+When it comes to sampling a two-dimensional data structure, we need to supply the index of each row we want to sample. This process can be completed in three steps:
+
+1. Create a numerical vector that is the same length as the number of rows in the data frame using the colon (:) operator.
+2. Use the sample() function to sample a list of indices from our first vector.
+3. Use bracket notation to retrieve data frame rows from sample list.
+
+So, first capture the number of rows in demo_table in a variable. The nrow() function counts the number of rows in a dataframe.
+
+![](snippets/sample_data3.PNG)
+
+Next, sample 3 of those rows, as shown in this code:
+
+![](snippets/sample_data4.PNG)
+
+Finally, retrieve the requested data within the demo_table:
+
+![](snippets/sample_data5.PNG)
+
+If we want to combine all three steps in a single R statement, our code would be as follows:
+
+![](snippets/sample_data6.PNG)
+
