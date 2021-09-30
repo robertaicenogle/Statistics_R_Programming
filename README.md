@@ -97,7 +97,7 @@ We have already used two built-in functions—the install.packages() function an
 ### Function syntax
 Regardless of where a function comes from, all R functions use the same basic syntax:
 
-![](function_syntax.PNG)
+![](snippets/function_syntax.PNG)
 
 ### Components of a Function
 There are four components of an R function:
@@ -115,7 +115,7 @@ There are built-in R functions to import the most common data formats, such as c
 ### Read Function (CSV File)
 To read in a CSV file, we use R's **read.csv()** function. read.csv() has a few required arguments to work properly. To identify the required arguments, type the following code into the R console to look at the read.csv() documentation in the Help pane:
 
-![](import_data.PNG)
+![](snippets/import_data.PNG)
 
 As we can see from the documentation, read.csv() is one of many read functions that all serve the same purpose: to read in tabular, character-delimited files and create a data frame object within our R environment.
 
@@ -131,7 +131,7 @@ Although optional arguments are used to parse more complicated datasets, for our
 
 Use read.csv() in our source RScript pane to read in the demo file into our R environment. Type the following code:
 
-![](read_csv.PNG)
+![](snippets/read_csv.PNG)
 
 Note: It isn't necessary to put a source file into our active working directory. If we ever want to read in a file from elsewhere on our computer, we would provide the full file path to our file argument.
 
@@ -155,13 +155,13 @@ Now that we have successfully imported our jsonlite package, we can use the from
 
 First, type the following code into the R console to look at the fromJSON() documentation in the Help pane:
 
-![](json_help.PNG)
+![](snippets/json_help.PNG)
 
 As we can see, we only need to provide the txt argument to properly read in a JSON file into R because the other parameters have default values indicated with equations (e.g. simplifyVector=True). txt is the file path of the JSON file on our machine. Alternatively, we can provide the fromJSON() function a JSON URL directly. Now let's practice reading in our first JSON file.
 
 Place the downloaded data file in your active working directory. Next, use fromJSON() in our source RScript pane to read in the used car data into our R environment, as follows:
 
-![](from_json.PNG)
+![](snippets/from_json.PNG)
 
 Once again, if we click the demo_table2 in our environment pane, it will show us our data frame in a view-only tab in the source pane.
 
@@ -170,25 +170,25 @@ There are many ways to select and subset data in R, depending on what data struc
 
 For example, if we have a numeric vector x with 10 values and want to select the third value, we would use the following statements:
 
-![](use_brackets.PNG)
+![](snippets/use_brackets.PNG)
 
 You can also use bracket notation to select data from two-dimensional data structures, such as matrices, data frames, and tibbles.
 
 If we want to select the third row of the Year column using bracket notation, our statement would appear as follows:
 
-![](select_data.PNG)
+![](snippets/select_data.PNG)
 
 Because R keeps track of both the row indices as well as the column indices as integers under the hood, we can also select the same data using just number indices:
 
-![](select_data2.PNG)
+![](snippets/select_data2.PNG)
 
 There is a third way to select data from an R data frame that behaves very similarly to Pandas. By using the $ operator, we can select columns from any two-dimensional R data structure as a single vector, similar to selecting a series from a Pandas DataFrame. For example, if we want to select the vector of vehicle classes from demo_table, we would use the following statement:
 
-![](select_data3.PNG)
+![](snippets/select_data3.PNG)
 
 Once we have selected the single vector, we can use bracket notation to select a single value.
 
-![](select_data4.PNG)
+![](snippets/select_data4.PNG)
 
 ### Select Data with Logic
 Just as it is for selecting single values, there are multiple ways to subset and filter data from our larger data frames. As with most programming languages, we use a combination of operators and logical statements to tell R what data to filter. Thankfully, most operators are the same between R and Python.
@@ -197,7 +197,7 @@ One of the most common ways to filter and subset a dataset in R is to use bracke
 
 For example, if we want to filter our used data in demo_table2 so that we only have rows where the price is greater than $10,000, we would use the following statement:
 
-![](select_data5.PNG)
+![](snippets/select_data5.PNG)
 
 In this line, the comma is necessary to subset by rows. Adding column(s) after the comma specifies the columns to select. If you do not supply a logical statement to either rows or columns, R will default to returning all elements in that dimension.
 
@@ -208,7 +208,7 @@ When our logical statements are simple (using only one or two operators), bracke
 ### Subset Data in R
 Another method to filter and subset data frames in R is to use the function subset(). Type the following code into the R console to look at the subset() documentation in the Help pane:
 
-![](subset_data.PNG)
+![](snippets/subset_data.PNG)
 
 The subset() function uses a few arguments to subset and filter a two-dimensional R data structure:
 
@@ -235,4 +235,4 @@ Using filtering and subsetting methods may be appropriate for certain cases (suc
 
 Type the following code into the R console to look at the sample() documentation in the Help pane:
 
-![](sample_data.PNG)
+![](snippets/sample_data.PNG)
