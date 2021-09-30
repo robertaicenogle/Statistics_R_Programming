@@ -199,4 +199,22 @@ For example, if we want to filter our used data in demo_table2 so that we only h
 
 ![](select_data5.PNG)
 
+In this line, the comma is necessary to subset by rows. Adding column(s) after the comma specifies the columns to select. If you do not supply a logical statement to either rows or columns, R will default to returning all elements in that dimension.
+
+In this example, the demo_table2$price > 10000 logical statement creates a vector of TRUE/FALSE values that R uses to consider all rows that satisfy our logical statement.
+
+When our logical statements are simple (using only one or two operators), bracket notation is easy to read and write. However, if we need to filter and subset our data using more complicated logic, bracket notation can become cumbersome. In these cases, we'll use an R function such as subset() to filter our data.
+
+### Subset Data in R
+Another method to filter and subset data frames in R is to use the function subset(). Type the following code into the R console to look at the subset() documentation in the Help pane:
+
+![](subset_data.PNG)
+
+The subset() function uses a few arguments to subset and filter a two-dimensional R data structure:
+
+- x
+- subset
+- select
+
+
 
