@@ -1,5 +1,5 @@
 # Fundamentals_R_Programming
-A thorough introduction to the R Program. Instructions for R installation, data import, data visualization, statistical tests, hypothesis testing, analysis of means, correlation and regression analysis
+A thorough introduction to the R Program. Instructions for R installation, data import, data visualization, statistical tests, hypothesis testing, analysis of means, correlation and regression analysis.
 
 ## Resources
 Introduction to R:  https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf
@@ -189,4 +189,14 @@ There is a third way to select data from an R data frame that behaves very simil
 Once we have selected the single vector, we can use bracket notation to select a single value.
 
 ![](select_data4.PNG)
+
+### Select Data with Logic
+Just as it is for selecting single values, there are multiple ways to subset and filter data from our larger data frames. As with most programming languages, we use a combination of operators and logical statements to tell R what data to filter. Thankfully, most operators are the same between R and Python.
+
+One of the most common ways to filter and subset a dataset in R is to use bracket notation. To use bracket notation to filter a data frame, we can supply a logical statement to assert our row and columns.
+
+For example, if we want to filter our used data in demo_table2 so that we only have rows where the price is greater than $10,000, we would use the following statement:
+
+![](select_data5.PNG)
+
 
