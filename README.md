@@ -182,4 +182,11 @@ Because R keeps track of both the row indices as well as the column indices as i
 
 ![](select_data2.PNG)
 
+There is a third way to select data from an R data frame that behaves very similarly to Pandas. By using the $ operator, we can select columns from any two-dimensional R data structure as a single vector, similar to selecting a series from a Pandas DataFrame. For example, if we want to select the vector of vehicle classes from demo_table, we would use the following statement:
+
+![](select_data3.PNG)
+
+Once we have selected the single vector, we can use bracket notation to select a single value.
+
+![](select_data4.PNG)
 
