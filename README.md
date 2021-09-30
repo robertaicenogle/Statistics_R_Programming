@@ -216,5 +216,6 @@ The subset() function uses a few arguments to subset and filter a two-dimensiona
 - subset
 - select
 
+For example, if we want to create a more elaborate filtered dataset from our used car data demo_table2 where price > 10000, drive == 4wd, and "clean" %in% title_status, we would use the following statement:
 
-
+> filter_table2 <- subset(demo_table2, price > 10000 & drive == "4wd" & "clean" %in% title_status) #filter by price and drivetrain
