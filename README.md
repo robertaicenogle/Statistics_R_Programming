@@ -219,3 +219,20 @@ The subset() function uses a few arguments to subset and filter a two-dimensiona
 For example, if we want to create a more elaborate filtered dataset from our used car data demo_table2 where price > 10000, drive == 4wd, and "clean" %in% title_status, we would use the following statement:
 
 > filter_table2 <- subset(demo_table2, price > 10000 & drive == "4wd" & "clean" %in% title_status) #filter by price and drivetrain
+
+Note: When combining logical statements in R, use element-wise AND operator or element-wise OR operator.
+
+In this case, using subset() is cleaner than using brackets, which would look like this:
+
+> filter_table3 <- demo_table2[("clean" %in% demo_table2$title_status) & (demo_table2$price > 10000) & (demo_table2$drive == "4wd"),]
+
+The subset() function makes filtering and subsetting easier to read by assuming column names in the subset argument, which cuts down on statement length. In almost all cases, the bracket notation and subset() function are functionally equivalent (especially when using logical statements) and interchangeable.
+
+### Sample Data in R
+Often in data science, we need to generate a random sample of data points from a larger dataset. For example, some models might take too long to run on a massive dataset and require a smaller sample of the data.
+
+Using filtering and subsetting methods may be appropriate for certain cases (such as looking at data within a specific timeframe), but usually we'll want to randomly sample our larger data to reduce bias. In these cases, we can use the built-in function sample(). Let's try it now.
+
+Type the following code into the R console to look at the sample() documentation in the Help pane:
+
+![](sample_data.PNG)
